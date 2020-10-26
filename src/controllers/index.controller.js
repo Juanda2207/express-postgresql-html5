@@ -1,13 +1,12 @@
 const {  Pool } = require('pg');
 const path = require ('path');
 const { prependOnceListener } = require('process');
-const { exists } = require('fs');
 
 const pool = new Pool({
 
     host: 'localhost',
     user: 'postgres',
-    password: 'petronia2207',
+    password: process.env.DATABASE_PASSWORD,
     database: 'postgres',
     port: '5432'
 
