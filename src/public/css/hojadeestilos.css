@@ -1,0 +1,62 @@
+body {
+	/*background-image: url(imagenes/doctores.jpg);*/
+	background-color: cadetblue;
+	text-align: center;
+}
+
+header{
+
+    color: #3F3E20;
+	border: double;
+	font-size: 25px;
+}
+
+/*img{
+
+	padding: 30px 40px;
+}*/
+
+button{
+
+	background-color: #E0DE5F;
+
+	padding: 10px 30px;
+
+	font-size: 20px;
+}
+
+.input{
+
+  width: 30%;
+  padding: 12px 20px;
+  margin: 20px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+
+}
+
+#aceptar{
+	background-color: #C18282;
+	border: double;
+}
+#consultar{
+
+    background-color: #C18282;
+	border: double;	
+}
+#eliminar{
+	background-color: #C18282;
+	border: double;
+}
+#editar{
+	background-color: #C18282;
+	border: double;
+}
+footer{
+
+
+	text-align: center;
+
+}

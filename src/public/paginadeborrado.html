@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Borrando pacientes</title>
+	<link rel="stylesheet" type="text/css" href="css/hojadeestilos.css">
+</head>
+<body>
+	<header>
+		<h1>Borrando pacientes</h1>
+	</header>
+
+	<nav>
+		<a href="index.html"><button type="button" name=boton0 id="boton0">Inicio</button></a>
+        <a href="paginadeconsulta.html"><button type="button" name=boton1 id="boton1">Consultar</button></a>
+		<a href="paginadecreacion.html"><button type="button" name=boton2 id="boton2">Crear</button></a>
+		<a href="paginadeedicion.html"><button type="button" name=boton3 id="boton3">Editar</button></a>
+		<a href="paginadeborrado.html"><button type ="button" name=boton4 id="boton4">Borrar</button></a>
+    </nav>
+
+	<section>
+		<article>
+
+		<figure>
+		<img src="imagenes/eliminar.jpg">
+		<figcaption>Qué lacra, no?</figcaption>
+	    </figure>			
+			
+		</article>
+		
+		<article>
+		
+		  <form action="/paginadeborrado" name="pacientes" method="POST" id="pacientes">
+
+		    <input type="number" class="input" name="dni" id="dni" autocomplete="off" placeholder="Ingresa el número de identificación del paciente">
+		    <br>
+		    <input type="submit" class="input" name="eliminar" id="eliminar" value="Eliminar paciente">
+
+		  </form>
+
+		</article>
+
+	</section>
+
+	<footer>
+	<address>Juan David Bonilla Alvarez - Código: 1841354-3743</address>
+    </footer>
+
+    <!-- <script src="/index.js"></script> -->
+
+</body>
+</html>
