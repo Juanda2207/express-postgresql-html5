@@ -1,13 +1,13 @@
-const {  Pool } = require('pg');
+const { Pool } = require('pg');
 const path = require ('path');
 const { prependOnceListener } = require('process');
 
 const pool = new Pool({
 
-    host: 'localhost',
-    user: 'postgres',
-    password: process.env.DATABASE_PASSWORD,
-    database: 'postgres',
+    host: 'ec2-54-156-53-71.compute-1.amazonaws.com',
+    user: 'zsjyhwgjqaqsjq',
+    password: 'b1086e1e4bb950e95fb13cfedccc9a2bd7cfba2f4134e9bb6fa4815820434e5c',
+    database: 'dejjv8luqb4ocl',
     port: '5432'
 
 });
